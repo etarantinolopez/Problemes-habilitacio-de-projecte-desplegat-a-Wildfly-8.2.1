@@ -1,0 +1,1235 @@
+2015-10-15 02:24:36,806 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2015-10-15 02:24:38,029 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2015-10-15 02:24:38,422 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: WildFly 8.2.1.Final "Tweek" starting
+2015-10-15 02:24:38,460 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\WildFly\wildfly-8.2.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Eugenio\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS;C:\WINDOWS\system32;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven-3.3.3\bin;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Users\Eugenio\AppData\Roaming\npm;C:\eclipse\jee-luna\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\WildFly\wildfly-8.2.1.Final
+	jboss.host.name = eugenio
+	jboss.modules.dir = C:\WildFly\wildfly-8.2.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = eugenio
+	jboss.qualified.host.name = eugenio
+	jboss.server.base.dir = C:\WildFly\wildfly-8.2.1.Final\standalone
+	jboss.server.config.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\log
+	jboss.server.name = eugenio
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/WildFly/wildfly-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = C:/WildFly/wildfly-8.2.1.Final/modules
+	org.jboss.boot.log.file = C:/WildFly/wildfly-8.2.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/WildFly/wildfly-8.2.1.Final/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\WildFly\wildfly-8.2.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = ES
+	user.dir = C:\WildFly\wildfly-8.2.1.Final\bin
+	user.home = C:\Users\Eugenio
+	user.language = es
+	user.name = Eugenio
+	user.script = 
+	user.timezone = Europe/Paris
+	user.variant = 
+2015-10-15 02:24:38,465 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/WildFly/wildfly-8.2.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/WildFly/wildfly-8.2.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/WildFly/wildfly-8.2.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-15 02:24:44,994 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found jboss-helloworld-rs.war in deployment directory. To trigger deployment create a file called jboss-helloworld-rs.war.dodeploy
+2015-10-15 02:24:44,997 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found simple.war in deployment directory. To trigger deployment create a file called simple.war.dodeploy
+2015-10-15 02:24:44,998 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found RestFullExemple.war in deployment directory. To trigger deployment create a file called RestFullExemple.war.dodeploy
+2015-10-15 02:24:45,040 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2015-10-15 02:24:45,152 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2015-10-15 02:24:45,195 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2015-10-15 02:24:45,600 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2015-10-15 02:24:45,640 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2015-10-15 02:24:45,657 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-15 02:24:45,659 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2015-10-15 02:24:45,844 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.7.Final
+2015-10-15 02:24:46,007 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2015-10-15 02:24:45,936 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2015-10-15 02:24:46,333 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-15 02:24:46,934 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.8.Final starting
+2015-10-15 02:24:46,944 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017502: Undertow 1.1.8.Final starting
+2015-10-15 02:24:47,053 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2015-10-15 02:24:47,055 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+2015-10-15 02:24:47,244 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.21.Final
+2015-10-15 02:24:47,346 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-15 02:24:48,722 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-4) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2015-10-15 02:24:48,896 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 02:24:48,941 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\WildFly\wildfly-8.2.1.Final/welcome-content
+2015-10-15 02:24:48,904 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010417: Started Driver service with driver-name = h2
+2015-10-15 02:24:49,041 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010417: Started Driver service with driver-name = postgresql
+2015-10-15 02:24:49,397 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017525: Started server default-server.
+2015-10-15 02:24:50,412 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017531: Host default-host starting
+2015-10-15 02:24:50,615 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-15 02:24:52,307 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory C:\WildFly\wildfly-8.2.1.Final\standalone\deployments
+2015-10-15 02:24:52,629 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/Postgres]
+2015-10-15 02:24:52,630 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-15 02:24:52,947 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2015-10-15 02:24:54,823 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-15 02:24:54,826 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2015-10-15 02:24:54,833 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.1.Final "Tweek" started in 19530ms - Started 190 of 240 services (82 services are lazy, passive or on-demand)
+2015-10-15 02:25:40,472 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 02:25:44,964 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 02:25:44,965 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 02:25:44,966 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 02:25:44,966 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 02:25:45,184 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 02:25:45,560 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 02:25:45,721 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-15 02:25:45,894 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named CustomerResourceBean in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:global/EJB/CustomerResourceBean
+	java:app/EJB/CustomerResourceBean
+	java:module/CustomerResourceBean
+
+2015-10-15 02:25:46,346 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 02:25:46,349 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 02:25:46,431 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.2.6 (Final)
+2015-10-15 02:25:46,554 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 02:25:46,563 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 02:25:46,899 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 51) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 02:25:46,930 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 51) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 02:25:47,064 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 51) HHH000412: Hibernate Core {4.3.7.Final}
+2015-10-15 02:25:47,068 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 51) HHH000206: hibernate.properties not found
+2015-10-15 02:25:47,071 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 51) HHH000021: Bytecode provider name : javassist
+2015-10-15 02:25:48,733 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 51) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-10-15 02:25:49,438 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 51) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 02:25:49,485 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 51) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 02:25:49,860 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 51) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 02:25:57,463 WARN  [org.jboss.as.weld] (MSC service thread 1-4) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 02:25:57,823 WARN  [org.jboss.as.weld] (MSC service thread 1-4) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 02:25:58,674 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-4) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 02:25:58,710 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-4) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 02:25:58,816 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_60]
+Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.constructor(ResourceBuilder.java:683)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.registered(POJOResourceFactory.java:41)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:207)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:193)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:179)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:156)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:75)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:400)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:241)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:112)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:79)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:220)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:125)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:509)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2015-10-15 02:25:58,847 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-4) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "EJB.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 02:25:58,856 ERROR [org.jboss.as.server] (XNIO-1 task-4) JBAS015870: Deploy of deployment "EJB.war" was rolled back with the following failure message: 
+{"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 02:25:58,889 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 02:25:58,912 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\temp49db41b250537330\content-318263c1e2327146/]-0) Exception in thread "xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\temp49db41b250537330\content-318263c1e2327146/]-0" java.nio.file.ClosedWatchServiceException
+2015-10-15 02:25:58,914 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\temp49db41b250537330\content-318263c1e2327146/]-0) 	at sun.nio.fs.AbstractWatchService.checkOpen(AbstractWatchService.java:80)
+2015-10-15 02:25:58,914 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\temp49db41b250537330\content-318263c1e2327146/]-0) 	at sun.nio.fs.AbstractWatchService.checkKey(AbstractWatchService.java:92)
+2015-10-15 02:25:58,915 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\temp49db41b250537330\content-318263c1e2327146/]-0) 	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:119)
+2015-10-15 02:25:58,916 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\temp49db41b250537330\content-318263c1e2327146/]-0) 	at org.xnio.nio.WatchServiceFileSystemWatcher.run(WatchServiceFileSystemWatcher.java:85)
+2015-10-15 02:25:58,917 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\temp49db41b250537330\content-318263c1e2327146/]-0) 	at java.lang.Thread.run(Thread.java:745)
+2015-10-15 02:25:58,923 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 55) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 02:25:58,930 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 02:25:59,339 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 481ms
+2015-10-15 02:25:59,346 INFO  [org.jboss.as.controller] (XNIO-1 task-4) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.persistenceunit."EJB.war#Postgres" (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./EJB (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB
+
+2015-10-15 02:28:40,149 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 02:28:41,986 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 02:28:41,986 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 02:28:41,986 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 02:28:41,986 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 02:28:42,016 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 02:28:42,353 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 02:28:42,378 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named CustomerResourceBean in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:global/EJB/CustomerResourceBean
+	java:app/EJB/CustomerResourceBean
+	java:module/CustomerResourceBean
+
+2015-10-15 02:28:42,510 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 02:28:42,511 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 02:28:42,518 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 02:28:42,535 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 02:28:42,560 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 02:28:42,561 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 02:28:42,623 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 02:28:42,625 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 58) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 02:28:42,636 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 02:28:43,186 WARN  [org.jboss.as.weld] (MSC service thread 1-7) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 02:28:43,240 WARN  [org.jboss.as.weld] (MSC service thread 1-7) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 02:28:43,358 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-7) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 02:28:43,368 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 02:28:43,468 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-7) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_60]
+Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.constructor(ResourceBuilder.java:683)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.registered(POJOResourceFactory.java:41)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:207)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:193)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:179)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:156)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:75)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:400)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:241)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:112)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:79)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:220)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:125)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:509)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2015-10-15 02:28:43,468 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-7) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "EJB.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 02:28:43,478 ERROR [org.jboss.as.server] (XNIO-1 task-7) JBAS015870: Deploy of deployment "EJB.war" was rolled back with the following failure message: 
+{"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 02:28:43,488 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 02:28:43,528 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 02:28:43,597 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 02:28:44,078 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 599ms
+2015-10-15 02:28:44,078 INFO  [org.jboss.as.controller] (XNIO-1 task-7) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (no longer required)
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB
+
+2015-10-15 02:39:32,310 INFO  [org.jboss.as.controller] (management-handler-thread - 1) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (no longer required)
+      service jboss.persistenceunit."EJB.war#Postgres" (no longer required)
+      service jboss.undertow.deployment.default-server.default-host./EJB (no longer required)
+
+2015-10-15 02:39:32,351 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010409: Unbound data source [java:jboss/Postgres]
+2015-10-15 02:39:32,351 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-10-15 02:39:32,436 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010418: Stopped Driver service with driver-name = h2
+2015-10-15 02:39:32,438 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010418: Stopped Driver service with driver-name = postgresql
+2015-10-15 02:39:32,441 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017532: Host default-host stopping
+2015-10-15 02:39:32,470 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017521: Undertow HTTP listener default suspending
+2015-10-15 02:39:32,485 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2015-10-15 02:39:32,487 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017506: Undertow 1.1.8.Final stopping
+2015-10-15 02:39:32,510 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.2.1.Final "Tweek" stopped in 184ms
+2015-10-15 09:57:48,448 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2015-10-15 09:57:51,459 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2015-10-15 09:57:51,740 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.1.Final "Tweek" starting
+2015-10-15 09:57:51,760 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\WildFly\wildfly-8.2.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Eugenio\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS;C:\WINDOWS\system32;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven-3.3.3\bin;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Users\Eugenio\AppData\Roaming\npm;C:\eclipse\jee-luna\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\WildFly\wildfly-8.2.1.Final
+	jboss.host.name = eugenio
+	jboss.modules.dir = C:\WildFly\wildfly-8.2.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = eugenio
+	jboss.qualified.host.name = eugenio
+	jboss.server.base.dir = C:\WildFly\wildfly-8.2.1.Final\standalone
+	jboss.server.config.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\log
+	jboss.server.name = eugenio
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\WildFly\wildfly-8.2.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/WildFly/wildfly-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = C:/WildFly/wildfly-8.2.1.Final/modules
+	org.jboss.boot.log.file = C:/WildFly/wildfly-8.2.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/WildFly/wildfly-8.2.1.Final/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\WildFly\wildfly-8.2.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = ES
+	user.dir = C:\WildFly\wildfly-8.2.1.Final\bin
+	user.home = C:\Users\Eugenio
+	user.language = es
+	user.name = Eugenio
+	user.script = 
+	user.timezone = Europe/Paris
+	user.variant = 
+2015-10-15 09:57:51,760 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/WildFly/wildfly-8.2.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/WildFly/wildfly-8.2.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/WildFly/wildfly-8.2.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-15 09:58:06,103 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found jboss-helloworld-rs.war in deployment directory. To trigger deployment create a file called jboss-helloworld-rs.war.dodeploy
+2015-10-15 09:58:06,106 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found simple.war in deployment directory. To trigger deployment create a file called simple.war.dodeploy
+2015-10-15 09:58:06,108 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found RestFullExemple.war in deployment directory. To trigger deployment create a file called RestFullExemple.war.dodeploy
+2015-10-15 09:58:06,163 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2015-10-15 09:58:06,235 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.0.Final
+2015-10-15 09:58:06,265 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.0.Final
+2015-10-15 09:58:06,621 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2015-10-15 09:58:06,680 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2015-10-15 09:58:06,688 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2015-10-15 09:58:06,932 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2015-10-15 09:58:06,974 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-15 09:58:06,968 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-15 09:58:07,111 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017502: Undertow 1.1.8.Final starting
+2015-10-15 09:58:07,114 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.21.Final
+2015-10-15 09:58:07,126 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.8.Final starting
+2015-10-15 09:58:07,151 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2015-10-15 09:58:07,178 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2015-10-15 09:58:08,001 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\WildFly\wildfly-8.2.1.Final/welcome-content
+2015-10-15 09:58:08,993 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Starting Naming Service
+2015-10-15 09:58:08,993 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2015-10-15 09:58:09,746 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-15 09:58:09,756 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2015-10-15 09:58:10,230 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 09:58:10,230 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010417: Started Driver service with driver-name = postgresql
+2015-10-15 09:58:10,611 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory C:\WildFly\wildfly-8.2.1.Final\standalone\deployments
+2015-10-15 09:58:11,381 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2015-10-15 09:58:11,452 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-15 09:58:11,502 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017531: Host default-host starting
+2015-10-15 09:58:11,502 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.7.Final
+2015-10-15 09:58:13,791 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/Postgres]
+2015-10-15 09:58:13,837 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-15 09:58:15,427 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2015-10-15 09:58:15,781 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-15 09:58:15,791 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2015-10-15 09:58:15,791 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.1.Final "Tweek" started in 32125ms - Started 190 of 240 services (82 services are lazy, passive or on-demand)
+2015-10-15 09:58:17,269 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\79\55be03f7ba9dd89afef6ea70f92c80f456c3d0\content
+2015-10-15 09:58:17,279 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 09:59:35,835 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found EJB.war in deployment directory. To trigger deployment create a file called EJB.war.dodeploy
+2015-10-15 09:59:35,916 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 09:59:38,390 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/standalone/deployments/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 09:59:38,390 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/standalone/deployments/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 09:59:38,400 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/standalone/deployments/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 09:59:38,400 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/standalone/deployments/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 09:59:39,221 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 09:59:40,531 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 09:59:41,764 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-15 09:59:42,185 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named CustomerResourceBean in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:global/EJB/CustomerResourceBean
+	java:app/EJB/CustomerResourceBean
+	java:module/CustomerResourceBean
+
+2015-10-15 09:59:43,746 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 09:59:43,749 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 09:59:44,317 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.2.6 (Final)
+2015-10-15 09:59:44,530 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 09:59:44,541 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 09:59:46,171 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 51) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 09:59:46,233 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 51) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 09:59:46,476 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 51) HHH000412: Hibernate Core {4.3.7.Final}
+2015-10-15 09:59:46,479 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 51) HHH000206: hibernate.properties not found
+2015-10-15 09:59:46,485 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 51) HHH000021: Bytecode provider name : javassist
+2015-10-15 09:59:47,467 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 51) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-10-15 09:59:49,374 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 51) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 09:59:49,435 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 51) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 09:59:49,962 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 51) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 09:59:55,313 WARN  [org.jboss.as.weld] (MSC service thread 1-2) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 09:59:55,469 WARN  [org.jboss.as.weld] (MSC service thread 1-2) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 09:59:55,962 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-2) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 09:59:55,979 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-2) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 09:59:56,098 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_60]
+Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.constructor(ResourceBuilder.java:683)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.registered(POJOResourceFactory.java:41)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:207)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:193)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:179)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:156)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:75)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:400)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:241)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:112)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:79)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:220)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:125)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:509)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2015-10-15 09:59:56,109 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "EJB.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 09:59:56,418 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018559: Deployed "EJB.war" (runtime-name : "EJB.war")
+2015-10-15 09:59:56,421 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+
+2015-10-15 10:00:22,678 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 10:00:22,697 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 54) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 10:00:22,702 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 10:00:22,894 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 223ms
+2015-10-15 10:00:23,141 INFO  [org.jboss.as.server] (XNIO-1 task-10) JBAS018558: Undeployed "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 10:00:23,143 INFO  [org.jboss.as.controller] (XNIO-1 task-10) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.persistenceunit."EJB.war#Postgres" (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./EJB (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB
+
+2015-10-15 10:00:40,030 INFO  [org.jboss.as.repository] (XNIO-1 task-4) JBAS014900: Content added at location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\19\e4bb92099f2a06a7e1a026fb5dd159dbfcba78\content
+2015-10-15 10:00:40,047 ERROR [io.undertow.request] (XNIO-1 task-5) UT005005: Cannot remove uploaded file C:\Users\Eugenio\AppData\Local\Temp\undertow7612656419301115662upload
+2015-10-15 10:00:46,281 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 10:00:55,615 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:00:55,616 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:00:55,620 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:00:55,621 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:00:55,680 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 10:00:55,851 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 10:00:55,867 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named CustomerResourceBean in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:global/EJB/CustomerResourceBean
+	java:app/EJB/CustomerResourceBean
+	java:module/CustomerResourceBean
+
+2015-10-15 10:00:56,519 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 10:00:56,520 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 10:00:56,543 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 10:00:56,548 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 10:00:56,558 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 54) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 10:00:56,558 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 54) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 10:00:56,618 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 54) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 10:00:56,619 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 54) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 10:00:56,627 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 54) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 10:00:58,142 WARN  [org.jboss.as.weld] (MSC service thread 1-1) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 10:00:58,186 WARN  [org.jboss.as.weld] (MSC service thread 1-1) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 10:00:58,310 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-1) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 10:00:58,312 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-1) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 10:00:58,320 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_60]
+Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.constructor(ResourceBuilder.java:683)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.registered(POJOResourceFactory.java:41)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:207)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:193)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:179)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:156)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:75)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:400)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:241)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:112)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:79)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:220)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:125)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:509)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2015-10-15 10:00:58,328 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-1) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "EJB.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 10:00:58,331 ERROR [org.jboss.as.server] (XNIO-1 task-1) JBAS015870: Deploy of deployment "EJB.war" was rolled back with the following failure message: 
+{"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 10:00:58,378 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 10:00:58,488 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 10:00:58,492 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 10:00:59,473 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 1137ms
+2015-10-15 10:00:59,477 INFO  [org.jboss.as.controller] (XNIO-1 task-1) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB
+
+2015-10-15 10:13:44,904 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\19\e4bb92099f2a06a7e1a026fb5dd159dbfcba78\content
+2015-10-15 10:13:44,905 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 10:13:44,905 INFO  [org.jboss.as.controller] (management-handler-thread - 1) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (no longer required)
+      service jboss.persistenceunit."EJB.war#Postgres" (no longer required)
+      service jboss.undertow.deployment.default-server.default-host./EJB (no longer required)
+
+2015-10-15 10:14:44,355 INFO  [org.jboss.as.repository] (XNIO-1 task-7) JBAS014900: Content added at location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\18\c8535f1361af41b396a089b9d2f20a2b01fd83\content
+2015-10-15 10:14:50,046 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 10:14:52,802 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:14:52,802 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:14:52,803 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:14:52,803 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:14:52,830 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 10:14:52,938 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 10:14:52,950 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named CustomerResourceBean in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:global/EJB/CustomerResourceBean
+	java:app/EJB/CustomerResourceBean
+	java:module/CustomerResourceBean
+
+2015-10-15 10:14:53,070 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 10:14:53,071 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 10:14:53,083 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 10:14:53,091 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 10:14:53,116 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 10:14:53,117 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 72) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 10:14:53,158 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 72) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 10:14:53,160 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 72) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 10:14:53,169 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 72) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 10:14:53,558 WARN  [org.jboss.as.weld] (MSC service thread 1-5) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 10:14:53,592 WARN  [org.jboss.as.weld] (MSC service thread 1-5) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 10:14:53,661 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-5) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 10:14:53,666 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-5) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 10:14:53,673 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_60]
+Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.constructor(ResourceBuilder.java:683)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.registered(POJOResourceFactory.java:41)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:207)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:193)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:179)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:156)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:75)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:400)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:241)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:112)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:79)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:220)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:125)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:509)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2015-10-15 10:14:53,680 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-4) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "EJB.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 10:14:53,681 ERROR [org.jboss.as.server] (XNIO-1 task-4) JBAS015870: Deploy of deployment "EJB.war" was rolled back with the following failure message: 
+{"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 10:14:53,688 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 10:14:53,698 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 10:14:53,700 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 10:14:53,792 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\tempcd446d0fad33e072\content-614e57cf74a64306/]-0) Exception in thread "xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\tempcd446d0fad33e072\content-614e57cf74a64306/]-0" java.nio.file.ClosedWatchServiceException
+2015-10-15 10:14:53,792 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\tempcd446d0fad33e072\content-614e57cf74a64306/]-0) 	at sun.nio.fs.AbstractWatchService.checkOpen(AbstractWatchService.java:80)
+2015-10-15 10:14:53,808 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\tempcd446d0fad33e072\content-614e57cf74a64306/]-0) 	at sun.nio.fs.AbstractWatchService.checkKey(AbstractWatchService.java:92)
+2015-10-15 10:14:53,808 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\tempcd446d0fad33e072\content-614e57cf74a64306/]-0) 	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:119)
+2015-10-15 10:14:53,808 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\tempcd446d0fad33e072\content-614e57cf74a64306/]-0) 	at org.xnio.nio.WatchServiceFileSystemWatcher.run(WatchServiceFileSystemWatcher.java:85)
+2015-10-15 10:14:53,809 ERROR [stderr] (xnio-file-watcher[Watcher for C:\WildFly\wildfly-8.2.1.Final\standalone\tmp\vfs\temp\tempcd446d0fad33e072\content-614e57cf74a64306/]-0) 	at java.lang.Thread.run(Thread.java:745)
+2015-10-15 10:14:53,850 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 168ms
+2015-10-15 10:14:53,851 INFO  [org.jboss.as.controller] (XNIO-1 task-4) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.persistenceunit."EJB.war#Postgres" (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./EJB (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB
+
+2015-10-15 10:28:29,678 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) JBAS014901: Content removed from location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\18\c8535f1361af41b396a089b9d2f20a2b01fd83\content
+2015-10-15 10:28:40,048 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015017: Deployment EJB.war was previously deployed by this scanner but has been undeployed by another management tool. Marker file C:\WildFly\wildfly-8.2.1.Final\standalone\deployments\EJB.war.undeployed is being added to record this fact.
+2015-10-15 10:28:45,053 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found EJB.war in deployment directory. To trigger deployment create a file called EJB.war.dodeploy
+2015-10-15 10:29:45,263 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015017: Deployment EJB.war was previously deployed by this scanner but has been undeployed by another management tool. Marker file C:\WildFly\wildfly-8.2.1.Final\standalone\deployments\EJB.war.undeployed is being added to record this fact.
+2015-10-15 10:29:50,279 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found EJB.war in deployment directory. To trigger deployment create a file called EJB.war.dodeploy
+2015-10-15 10:31:25,416 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 10:31:25,416 INFO  [org.jboss.as.controller] (management-handler-thread - 1) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (no longer required)
+      service jboss.persistenceunit."EJB.war#Postgres" (no longer required)
+      service jboss.undertow.deployment.default-server.default-host./EJB (no longer required)
+
+2015-10-15 10:33:40,818 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 10:33:41,869 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/standalone/deployments/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:33:41,869 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/standalone/deployments/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:33:41,869 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/standalone/deployments/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:33:41,869 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/standalone/deployments/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 10:33:41,890 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 10:33:42,040 WARN  [org.jboss.as.ee] (MSC service thread 1-5) JBAS011006: Not installing optional component org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse due to an exception (enable DEBUG log level to see the cause)
+2015-10-15 10:33:42,050 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 10:33:42,050 WARN  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016012: Deployment deployment "EJB.war" contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations).
+2015-10-15 10:33:42,060 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 10:33:42,060 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 10:33:42,060 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 81) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 10:33:42,070 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 81) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 10:33:42,070 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 81) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 10:33:42,080 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 81) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 10:33:42,110 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017534: Registered web context: /EJB
+2015-10-15 10:33:42,260 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "EJB.war" (runtime-name : "EJB.war")
+2015-10-15 11:04:39,471 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 11:04:39,472 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017535: Unregistered web context: /EJB
+2015-10-15 11:04:39,481 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 11:04:39,567 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 96ms
+2015-10-15 11:04:39,771 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 11:04:40,066 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015018: Deployment EJB.war was previously deployed by this scanner but has been removed from the server deployment list by another management tool. Marker file C:\WildFly\wildfly-8.2.1.Final\standalone\deployments\EJB.war.undeployed is being added to record this fact.
+2015-10-15 11:04:45,079 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found EJB.war in deployment directory. To trigger deployment create a file called EJB.war.dodeploy
+2015-10-15 11:05:18,475 INFO  [org.jboss.as.repository] (XNIO-1 task-10) JBAS014900: Content added at location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\16\0a53260cc91b6e75d3ffb58bafed0c1f5adf28\content
+2015-10-15 11:05:22,900 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 11:05:24,451 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:05:24,461 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:05:24,461 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:05:24,461 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:05:24,492 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 11:05:24,972 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 11:05:24,992 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named Caca in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/Caca!com.restfully.shop.services.CacaRemote
+	java:app/EJB/Caca!com.restfully.shop.services.CacaRemote
+	java:module/Caca!com.restfully.shop.services.CacaRemote
+	java:jboss/exported/EJB/Caca!com.restfully.shop.services.CacaRemote
+	java:global/EJB/Caca!com.restfully.shop.services.Caca
+	java:app/EJB/Caca!com.restfully.shop.services.Caca
+	java:module/Caca!com.restfully.shop.services.Caca
+
+2015-10-15 11:05:24,992 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named CustomerResourceBean in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:jboss/exported/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+
+2015-10-15 11:05:25,072 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 11:05:25,072 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 11:05:25,082 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 11:05:25,082 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 11:05:25,092 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 11:05:25,092 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 89) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 11:05:25,122 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 89) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 11:05:25,122 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 89) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 11:05:25,132 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 89) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 11:05:25,824 WARN  [org.jboss.as.weld] (MSC service thread 1-1) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 11:05:25,870 WARN  [org.jboss.as.weld] (MSC service thread 1-1) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 11:05:26,006 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-1) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 11:05:26,009 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-1) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 11:05:26,027 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_60]
+Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.constructor(ResourceBuilder.java:683)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.registered(POJOResourceFactory.java:41)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:207)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:193)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:179)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:156)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:75)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:400)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:241)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:112)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:79)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:220)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:125)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:509)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2015-10-15 11:05:26,038 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-7) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "EJB.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 11:05:26,040 ERROR [org.jboss.as.server] (XNIO-1 task-7) JBAS015870: Deploy of deployment "EJB.war" was rolled back with the following failure message: 
+{"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 11:05:26,040 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 11:05:26,050 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 92) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 11:05:26,050 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 11:05:26,412 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 378ms
+2015-10-15 11:05:26,412 INFO  [org.jboss.as.controller] (XNIO-1 task-7) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."EJB.war".component.Caca.START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.persistenceunit."EJB.war#Postgres" (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./EJB (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB
+
+2015-10-15 11:10:01,633 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\16\0a53260cc91b6e75d3ffb58bafed0c1f5adf28\content
+2015-10-15 11:10:01,633 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 11:10:01,633 INFO  [org.jboss.as.controller] (management-handler-thread - 1) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.deployment.unit."EJB.war".component.Caca.START (no longer required)
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (no longer required)
+      service jboss.persistenceunit."EJB.war#Postgres" (no longer required)
+      service jboss.undertow.deployment.default-server.default-host./EJB (no longer required)
+
+2015-10-15 11:10:49,438 INFO  [org.jboss.as.repository] (XNIO-1 task-3) JBAS014900: Content added at location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\1f\2eb4731c13207538466b5d65289978ae983a9d\content
+2015-10-15 11:10:53,049 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 11:10:54,651 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:10:54,651 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:10:54,651 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:10:54,651 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:10:54,671 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 11:10:54,794 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 11:10:54,814 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named Caca in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/Caca!com.restfully.shop.services.CacaRemote
+	java:app/EJB/Caca!com.restfully.shop.services.CacaRemote
+	java:module/Caca!com.restfully.shop.services.CacaRemote
+	java:jboss/exported/EJB/Caca!com.restfully.shop.services.CacaRemote
+	java:global/EJB/Caca!com.restfully.shop.services.Caca
+	java:app/EJB/Caca!com.restfully.shop.services.Caca
+	java:module/Caca!com.restfully.shop.services.Caca
+
+2015-10-15 11:10:54,864 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 11:10:54,864 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 11:10:54,874 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 11:10:54,874 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 11:10:54,884 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 11:10:54,884 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 95) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 11:10:54,924 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 95) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 11:10:54,924 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 95) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 11:10:54,924 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 95) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 11:10:55,368 WARN  [org.jboss.as.weld] (MSC service thread 1-7) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 11:10:55,409 WARN  [org.jboss.as.weld] (MSC service thread 1-7) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 11:10:55,502 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-7) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 11:10:55,502 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 11:10:55,512 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017534: Registered web context: /EJB
+2015-10-15 11:10:56,252 INFO  [org.jboss.as.server] (XNIO-1 task-10) JBAS018559: Deployed "EJB.war" (runtime-name : "EJB.war")
+2015-10-15 11:44:19,560 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 11:44:19,570 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017535: Unregistered web context: /EJB
+2015-10-15 11:44:19,611 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 103) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 11:44:19,621 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 11:44:19,803 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 241ms
+2015-10-15 11:44:19,973 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\1f\2eb4731c13207538466b5d65289978ae983a9d\content
+2015-10-15 11:44:19,973 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 11:45:09,233 INFO  [org.jboss.as.repository] (XNIO-1 task-8) JBAS014900: Content added at location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\aa\44a43a5b767c8c6ad47ed67e8f32e35c5ba9d4\content
+2015-10-15 11:45:12,454 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 11:45:14,176 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:45:14,176 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:45:14,176 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:45:14,176 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:45:14,197 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 11:45:14,287 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 11:45:14,287 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named CustomerResourceBean in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanLocal
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanLocal
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanLocal
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanRemote
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanRemote
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanRemote
+	java:jboss/exported/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanRemote
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+
+2015-10-15 11:45:14,367 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 11:45:14,367 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 11:45:14,367 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 11:45:14,377 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 11:45:14,387 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 104) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 11:45:14,387 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 104) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 11:45:14,417 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 104) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 11:45:14,417 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 104) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 11:45:14,417 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 104) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 11:45:14,789 WARN  [org.jboss.as.weld] (MSC service thread 1-3) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 11:45:14,819 WARN  [org.jboss.as.weld] (MSC service thread 1-3) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 11:45:14,919 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-3) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 11:45:14,919 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-3) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 11:45:14,929 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_60]
+Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResourceBeanLocal
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.constructor(ResourceBuilder.java:683)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.registered(POJOResourceFactory.java:41)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:207)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:193)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:179)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:156)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:75)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:400)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:241)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:112)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:79)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:220)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:125)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:509)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2015-10-15 11:45:14,939 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-5) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "EJB.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResourceBeanLocal"}}
+2015-10-15 11:45:14,939 ERROR [org.jboss.as.server] (XNIO-1 task-5) JBAS015870: Deploy of deployment "EJB.war" was rolled back with the following failure message: 
+{"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResourceBeanLocal"}}
+2015-10-15 11:45:14,939 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 11:45:14,959 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 108) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 11:45:14,959 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 11:45:16,431 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 1493ms
+2015-10-15 11:45:16,431 INFO  [org.jboss.as.controller] (XNIO-1 task-5) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.persistenceunit."EJB.war#Postgres" (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./EJB (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB
+
+2015-10-15 11:50:05,395 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\aa\44a43a5b767c8c6ad47ed67e8f32e35c5ba9d4\content
+2015-10-15 11:50:05,395 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 11:50:05,395 INFO  [org.jboss.as.controller] (management-handler-thread - 1) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (no longer required)
+      service jboss.persistenceunit."EJB.war#Postgres" (no longer required)
+      service jboss.undertow.deployment.default-server.default-host./EJB (no longer required)
+
+2015-10-15 11:52:29,982 INFO  [org.jboss.as.repository] (XNIO-1 task-1) JBAS014900: Content added at location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\82\0db8c97255daba78eb43bfc9584592363fe612\content
+2015-10-15 11:52:33,974 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 11:52:35,775 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:52:35,775 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:52:35,775 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:52:35,775 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 11:52:35,796 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 11:52:35,896 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 11:52:35,906 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named CustomerResourceBean in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanRemote
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanRemote
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanRemote
+	java:jboss/exported/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBeanRemote
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+
+2015-10-15 11:52:35,978 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 11:52:35,978 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 11:52:35,989 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 11:52:35,990 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 11:52:35,997 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 11:52:35,998 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 111) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 11:52:36,020 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 111) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 11:52:36,020 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 111) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 11:52:36,030 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 111) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 11:52:36,382 WARN  [org.jboss.as.weld] (MSC service thread 1-7) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 11:52:36,412 WARN  [org.jboss.as.weld] (MSC service thread 1-7) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 11:52:36,482 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-7) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 11:52:36,482 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 11:52:36,492 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-7) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_60]
+Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResourceBeanRemote
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.constructor(ResourceBuilder.java:683)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.registered(POJOResourceFactory.java:41)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:207)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:193)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:179)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:156)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:75)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:400)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:241)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:112)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:79)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:220)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:125)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:509)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2015-10-15 11:52:36,532 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-9) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "EJB.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResourceBeanRemote"}}
+2015-10-15 11:52:36,532 ERROR [org.jboss.as.server] (XNIO-1 task-9) JBAS015870: Deploy of deployment "EJB.war" was rolled back with the following failure message: 
+{"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResourceBeanRemote"}}
+2015-10-15 11:52:36,542 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 11:52:36,562 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 112) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 11:52:36,562 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 11:52:37,314 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 786ms
+2015-10-15 11:52:37,314 INFO  [org.jboss.as.controller] (XNIO-1 task-9) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.persistenceunit."EJB.war#Postgres" (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./EJB (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB
+
+2015-10-15 14:01:49,639 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\82\0db8c97255daba78eb43bfc9584592363fe612\content
+2015-10-15 14:01:49,639 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 14:01:49,639 INFO  [org.jboss.as.controller] (management-handler-thread - 1) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.deployment.unit."EJB.war".component.CustomerResourceBean.START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.faces.webapp.FacetTag".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Servlet3AsyncHttpRequest$Servlet3ExecutionContext$Servle3AsychronousResponse".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (no longer required)
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (no longer required)
+      service jboss.persistenceunit."EJB.war#Postgres" (no longer required)
+      service jboss.undertow.deployment.default-server.default-host./EJB (no longer required)
+
+2015-10-15 14:03:37,097 INFO  [org.jboss.as.repository] (XNIO-1 task-4) JBAS014900: Content added at location C:\WildFly\wildfly-8.2.1.Final\standalone\data\content\43\0014919ac1cbd64b31a390591304ede7cd6c3d\content
+2015-10-15 14:03:41,758 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "EJB.war" (runtime-name: "EJB.war")
+2015-10-15 14:03:45,149 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015960: Class Path entry jaxb-api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 14:03:45,149 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015960: Class Path entry activation.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 14:03:45,149 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 14:03:45,149 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/WildFly/wildfly-8.2.1.Final/bin/content/EJB.war/WEB-INF/lib/jaxb-impl-2.2.5-2.jar  does not point to a valid jar for a Class-Path reference.
+2015-10-15 14:03:45,763 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for Postgres
+2015-10-15 14:03:45,863 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment EJB.war
+2015-10-15 14:03:45,873 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named CustomerResourceBean in deployment unit deployment "EJB.war" are as follows:
+
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:jboss/exported/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResource
+	java:global/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+	java:app/EJB/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+	java:module/CustomerResourceBean!com.restfully.shop.services.CustomerResourceBean
+
+2015-10-15 14:03:45,975 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-15 14:03:45,975 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: EJB.war
+2015-10-15 14:03:45,975 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010417: Started Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 14:03:45,975 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016008: Starting weld service for deployment EJB.war
+2015-10-15 14:03:45,985 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 118) JBAS011402: Starting Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 14:03:45,985 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 118) HHH000204: Processing PersistenceUnitInfo [
+	name: Postgres
+	...]
+2015-10-15 14:03:46,025 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 118) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-15 14:03:46,025 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 118) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-15 14:03:46,053 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 118) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-15 14:03:46,461 WARN  [org.jboss.as.weld] (MSC service thread 1-6) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-cdi:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 14:03:46,491 WARN  [org.jboss.as.weld] (MSC service thread 1-6) JBAS016018: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2015-10-15 14:03:46,552 WARN  [org.jboss.resteasy.plugins.providers.RegisterBuiltin] (MSC service thread 1-6) NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.security.smime.MultipartSignedReader
+2015-10-15 14:03:46,552 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-6) Deploying javax.ws.rs.core.Application: class com.restfully.shop.services.ShoppingApplication
+2015-10-15 14:03:46,552 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./EJB: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_60]
+Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.constructor(ResourceBuilder.java:683)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.registered(POJOResourceFactory.java:41)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:207)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:193)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:179)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:156)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:75)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:400)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:241)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:112)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:79)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:220)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:125)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:509)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2015-10-15 14:03:46,562 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-2) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "EJB.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 14:03:46,562 ERROR [org.jboss.as.server] (XNIO-1 task-2) JBAS015870: Deploy of deployment "EJB.war" was rolled back with the following failure message: 
+{"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./EJB" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./EJB: Failed to start service
+    Caused by: java.lang.RuntimeException: Could not find constructor for class: com.restfully.shop.services.CustomerResource"}}
+2015-10-15 14:03:46,572 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010418: Stopped Driver service with driver-name = EJB.war_org.postgresql.Driver_9_4
+2015-10-15 14:03:46,572 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 122) JBAS011403: Stopping Persistence Unit Service 'EJB.war#Postgres'
+2015-10-15 14:03:46,572 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016009: Stopping weld service for deployment EJB.war
+2015-10-15 14:03:46,876 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment EJB.war (runtime-name: EJB.war) in 309ms
+2015-10-15 14:03:46,886 INFO  [org.jboss.as.controller] (XNIO-1 task-2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."EJB.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.Filter30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.resteasy.plugins.server.servlet.HttpServlet30Dispatcher".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+      service jboss.deployment.unit."EJB.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.deployment.unit."EJB.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./EJB
+
