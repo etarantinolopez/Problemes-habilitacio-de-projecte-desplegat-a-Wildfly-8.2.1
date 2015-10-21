@@ -9,15 +9,23 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.Link;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriBuilder;
 import javax.ws.rs.core.UriInfo;
 
+import org.jboss.resteasy.annotations.providers.jaxb.Formatted;
+
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
+@Path("/customers")
 @Stateless
 @LocalBean
 public class CustomerResourceBean implements CustomerResource
@@ -25,6 +33,7 @@ public class CustomerResourceBean implements CustomerResource
    @PersistenceContext
    private EntityManager em;
 
+   @Consumes("application/xml")
    public Response createCustomer(Customer customer, UriInfo uriInfo)
    {
       CustomerEntity entity = new CustomerEntity();
@@ -39,7 +48,10 @@ public class CustomerResourceBean implements CustomerResource
 
    }
 
-   public Customer getCustomer(int id)
+   @Path("{id}")
+   @Produces("application/xml")
+   //public Customer getCustomer(int id)
+   public Customer getCustomer(@PathParam("id") int id)
    {
       CustomerEntity customer = em.getReference(CustomerEntity.class, id);
       return entity2domain(customer);
@@ -71,6 +83,8 @@ public class CustomerResourceBean implements CustomerResource
       return cust;
    }
 
+   @Produces("application/xml")
+   @Formatted
    public Customers getCustomers(int start,
                                  int size,
                                  String firstName,

@@ -23,7 +23,7 @@ import org.jboss.resteasy.annotations.providers.jaxb.Formatted;
  * @version $Revision: 1 $
  */
 @Remote
-@Path("/customers")
+//@Path("/customers")
 public interface CustomerResource
 {
    @POST
