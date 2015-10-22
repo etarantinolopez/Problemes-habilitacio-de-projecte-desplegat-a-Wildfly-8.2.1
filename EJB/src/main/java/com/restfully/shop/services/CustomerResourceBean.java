@@ -33,7 +33,8 @@ public class CustomerResourceBean implements CustomerResource
    @PersistenceContext
    private EntityManager em;
 
-   @Consumes("application/xml")
+   //@Consumes("application/xml")
+   @Override
    public Response createCustomer(Customer customer, UriInfo uriInfo)
    {
       CustomerEntity entity = new CustomerEntity();
@@ -48,10 +49,11 @@ public class CustomerResourceBean implements CustomerResource
 
    }
 
-   @Path("{id}")
-   @Produces("application/xml")
-   //public Customer getCustomer(int id)
-   public Customer getCustomer(@PathParam("id") int id)
+   //@Path("{id}")
+   //@Produces("application/xml")
+   @Override
+   public Customer getCustomer(int id)
+   //public Customer getCustomer(@PathParam("id") int id)
    {
       CustomerEntity customer = em.getReference(CustomerEntity.class, id);
       return entity2domain(customer);
@@ -83,8 +85,9 @@ public class CustomerResourceBean implements CustomerResource
       return cust;
    }
 
-   @Produces("application/xml")
-   @Formatted
+   //@Produces("application/xml")
+   //@Formatted
+   @Override
    public Customers getCustomers(int start,
                                  int size,
                                  String firstName,

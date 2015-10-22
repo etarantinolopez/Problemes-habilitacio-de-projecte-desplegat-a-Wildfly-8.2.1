@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.restfully.shop.test.CustomerResourceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.261 sec <<< FAILURE! - in com.restfully.shop.test.CustomerResourceTest
-testCustomerResource(com.restfully.shop.test.CustomerResourceTest)  Time elapsed: 1.258 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.694 sec <<< FAILURE! - in com.restfully.shop.test.CustomerResourceTest
+testCustomerResource(com.restfully.shop.test.CustomerResourceTest)  Time elapsed: 4.689 sec  <<< ERROR!
 java.lang.RuntimeException: Failed to create
 	at com.restfully.shop.test.CustomerResourceTest.testCustomerResource(CustomerResourceTest.java:36)
 
